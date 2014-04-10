@@ -1,0 +1,49 @@
+{
+  "name": "model",
+  "description": "JavaScript hash model",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kaelzhang/model",
+  "author": {
+    "name": "Kael",
+    "email": "i@kael.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaelzhang/model/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kaelzhang/model/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "model",
+    "state",
+    "hash",
+    "object",
+    "manager"
+  ],
+  "cortex": {
+    "devDependencies": {
+      "neuron": "~3.5.6"
+    },
+    "asyncDependencies": {},
+    "scripts": {},
+    "dependencies": {
+      "events": "~1.0.0"
+    }
+  }
+}
